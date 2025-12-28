@@ -118,30 +118,6 @@ BRAND["background"] = "#111827"
 BRAND["text"] = "#e2e8f0"
 ```
 
-## 📚 Learning Mode (Optional)
-
-Track which visualizations work best:
-
-```python
-from dynamic_viz import VizLearningStore
-
-store = VizLearningStore()
-
-# Log a visualization
-viz_id = store.log_visualization(
-    chart_type="bar",
-    title="My Chart",
-    insight="Key finding",
-    data_points=5
-)
-
-# Rate effectiveness (1-10)
-store.rate_visualization(viz_id, score=8, feedback="Clear and useful")
-
-# Get recommendations
-best_chart = store.get_best_chart_type(context="comparison")
-```
-
 ## 🔧 API Reference
 
 ### AIVizAssistant
@@ -155,15 +131,6 @@ best_chart = store.get_best_chart_type(context="comparison")
 | `visualize_funnel()` | Funnel for process stages |
 | `visualize_custom()` | Any chart from dict spec |
 | `get_chart_history()` | Get all generated charts |
-
-### VizLearningStore
-
-| Method | Description |
-|--------|-------------|
-| `log_visualization()` | Record a generated chart |
-| `rate_visualization()` | Submit effectiveness rating |
-| `get_best_chart_type()` | Get recommended chart type |
-| `get_viz_stats()` | Get learning statistics |
 
 ## 🤝 Contributing
 
