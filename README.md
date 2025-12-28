@@ -176,3 +176,11 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## 💚 Credits
 
 Open sourced with love by [GetCognition](https://getcognition.ai)
+
+### Built With
+- [Altair](https://altair-viz.github.io/) - Declarative statistical visualization library for Python
+- [Vega-Lite](https://vega.github.io/vega-lite/) - Grammar of interactive graphics
+- [Vega](https://vega.github.io/vega/) - Visualization grammar
+
+Special thanks to the Altair team for their amazing work on declarative visualization! 🙏
+
