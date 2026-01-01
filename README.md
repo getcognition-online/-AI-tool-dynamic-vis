@@ -5,7 +5,7 @@
 
 > **Open Source by GetCognition** 💚
 
-A self-learning visualization engine that allows AI/LLM systems to programmatically request and generate custom visualizations to explain insights.
+A visualization engine that allows AI/LLM systems to programmatically request and generate custom visualizations to explain insights.
 
 ## ✨ Features
 
@@ -13,7 +13,6 @@ A self-learning visualization engine that allows AI/LLM systems to programmatica
 - 🤖 **AI-First Design**: Natural language interface for AI to request visualizations
 - 📚 **Vega-Lite Output**: Standards-based, renders anywhere
 - 🎯 **Customizable**: Easy to override colors and styling
-- 📈 **Learning Loop**: Track effectiveness and improve over time (optional)
 
 ## 📦 Installation
 
